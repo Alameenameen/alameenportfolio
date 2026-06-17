@@ -9,7 +9,7 @@ import { VideoItem, DevProject } from "../types";
  */
 
 export const profile = {
-  name: "Al Ameen",
+  name: "Al Ameennnnnnnnnnnn",
   tagline: "Videographer & Editor | MERN Stack Developer",
   location: "Kollam, Kerala, India",
   email: "alluallu6002@gmail.com",
