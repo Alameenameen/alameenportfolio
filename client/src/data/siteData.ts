@@ -9,7 +9,7 @@ import { VideoItem, DevProject } from "../types";
  */
 
 export const profile = {
-  name: "Al Ameennnnnnnnnnnn",
+  name: "Al Ameen",
   tagline: "Videographer & Editor | MERN Stack Developer",
   location: "Kollam, Kerala, India",
   email: "alluallu6002@gmail.com",
@@ -19,16 +19,16 @@ export const profile = {
 
 // EDIT ME — replace "#" with your real profile links once ready.
 export const links = {
-  instagram: "#", // e.g. https://instagram.com/your_handle
-  linkedin: "#", // e.g. https://linkedin.com/in/your-name
-  github: "#", // e.g. https://github.com/your-username
+  instagram: "https://www.instagram.com/edi_x___/?__pwa=1", // e.g. https://instagram.com/your_handle
+  linkedin: "www.linkedin.com/in/al-ameen-a19767316", // e.g. https://linkedin.com/in/your-name
+  github: "https://github.com/Alameenameen/", // e.g. https://github.com/your-username
   resume: "/resume.pdf", // drop your resume PDF into client/public/resume.pdf
 };
 
 export const timeline = [
-  { year: "2021", label: "Completed SSLC (10th Standard)" },
-  { year: "2022 – 2024", label: "Higher Secondary Education" },
-  { year: "2025", label: "Software Development Course (MERN Stack) — Brototype" },
+  { year: "2021", label: "Completed SSLC (10th Standard) , M.K.L.M.H.S.SCHOOL" },
+  { year: "2022 – 2024", label: "Higher Secondary Education ,  M.K.L.M.H.S.SCHOOL" },
+  { year: "2025", label: "Software Development Course (MERN Stack) — Brototype-Ernakulam" },
   { year: "2025 – Present", label: "Freelance MERN Stack Developer (1+ year experience)" },
   { year: "Ongoing", label: "Freelance Videographer & Editor — weddings, events, brand films & more" },
 ];
@@ -64,6 +64,7 @@ export const devSkills = [
   "Git & GitHub",
   "JWT Authentication",
   "Postman",
+  "Sql",
 ];
 
 /**
@@ -82,64 +83,64 @@ export const fallbackVideos: VideoItem[] = [
     title: "Wedding Film Sample",
     category: "Wedding Films",
     description: "A full wedding day cut down into one cinematic story.",
-    instagramUrl: "#",
-    duration: "03:15",
+    instagramUrl: "https://www.instagram.com/reel/DXY9oPXE74C/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    duration: "45sec",
   },
   {
     id: "v2",
     title: "Anniversary Film Sample",
     category: "Pre-Wedding & Anniversaries",
     description: "Celebrating years together with a warm, narrative edit.",
-    instagramUrl: "#",
-    duration: "02:40",
+    instagramUrl: "https://www.instagram.com/reel/DYK09fzTQKb/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    duration: "40sec",
   },
   {
     id: "v3",
     title: "Birthday Celebration Reel",
     category: "Birthday & Celebrations",
     description: "High-energy highlights from a birthday party.",
-    instagramUrl: "#",
-    duration: "01:10",
+    instagramUrl: "https://www.instagram.com/reel/DV6DTYpD2O9/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    duration: "01:00min",
   },
   {
     id: "v4",
     title: "Festival Highlights Reel",
     category: "Festivals & Events",
     description: "Color, crowd and culture cut to rhythm.",
-    instagramUrl: "#",
-    duration: "01:45",
+    instagramUrl: "https://www.instagram.com/reel/DTxYnWCiLIw/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    duration: "45sec",
   },
   {
     id: "v5",
     title: "Brand Promo Ad",
     category: "Brand Promos & Ads",
     description: "A short, punchy promo built to stop the scroll.",
-    instagramUrl: "#",
-    duration: "00:30",
+    instagramUrl: "https://www.instagram.com/reel/DKpujHBuBbT/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    duration: "1:00",
   },
   {
     id: "v6",
     title: "Music Video Edit",
     category: "Music Videos",
     description: "Performance footage synced tight to the beat.",
-    instagramUrl: "#",
-    duration: "03:02",
+    instagramUrl: "https://www.instagram.com/reel/DZcBzC7TXRG/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    duration: "1:00",
   },
   {
     id: "v7",
     title: "Instagram Reel Edit",
     category: "Short Reels",
     description: "Fast-paced vertical edit built for the feed.",
-    instagramUrl: "#",
-    duration: "00:42",
+    instagramUrl: "https://www.instagram.com/reel/DZrkQeeT903/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    duration: "00:30",
   },
   {
     id: "v8",
     title: "Color Grade Showcase",
     category: "Color Grading",
     description: "Before/after grading on the same raw footage.",
-    instagramUrl: "#",
-    duration: "01:00",
+    instagramUrl: "https://www.instagram.com/reel/DYEjIiCzfta/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    duration: "30sec",
   },
 ];
 
@@ -152,29 +153,29 @@ export const fallbackVideos: VideoItem[] = [
 export const fallbackProjects: DevProject[] = [
   {
     id: "p1",
-    title: "ShopEase — MERN E-Commerce Platform",
+    title: "PepperpotRestaurant — MERN food ordering Platform",
     description:
-      "Full-stack e-commerce app with user authentication, a product catalog, cart, and order management.",
+      "Full-stack food ordering app with user authentication, a product catalog, cart, and order management.",
     tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Tailwind CSS"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/Alameenameen/",
+    liveUrl: "https://www.pepperpotrestaurant.com/",
   },
   {
     id: "p2",
-    title: "TaskFlow — Team Task Manager",
+    title: "Personal portFolio Website — MERN Stack",
     description:
-      "Kanban-style task board with drag-and-drop columns and live status updates for small teams.",
+      "Personal portfolio website showcasing my work, skills, and contact information.",
     tech: ["React", "Node.js", "Express", "MongoDB"],
-    githubUrl: "#",
-    liveUrl: "#",
+    githubUrl: "https://github.com/Alameenameen/",
+    liveUrl: "https://alameenportfolio.vercel.app/",
   },
-  {
-    id: "p3",
-    title: "BlogSpace — Full-Stack Blogging Platform",
-    description:
-      "A blogging platform with a rich text editor, comments, and authenticated authoring.",
-    tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
-    githubUrl: "#",
-    liveUrl: "#",
-  },
+  // {
+  //   id: "p3",
+  //   title: "BlogSpace — Full-Stack Blogging Platform",
+  //   description:
+  //     "A blogging platform with a rich text editor, comments, and authenticated authoring.",
+  //   tech: ["React", "Node.js", "Express", "MongoDB", "JWT"],
+  //   githubUrl: "#",
+  //   liveUrl: "#",
+  // },
 ];
